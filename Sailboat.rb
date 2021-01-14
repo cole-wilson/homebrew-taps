@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v0.12.7
+# v0.12.10
 
 class Sailboat < Formula
   include Language::Python::Virtualenv
 
   desc "🐍 A quick and easy way to distribute your Python projects!"
   homepage "https://github.com/cole-wilson/sailboat"
-  url "https://files.pythonhosted.org/packages/68/be/0b2d4a66681285f4e6108b01689ab1c0d4942114ea8be719893d1e2c3bf8/sailboat-0.12.6.tar.gz" # These lines must be configured during release, not build.
-  sha256 "a71d9e86876dd9f53d014c147ba95f8c8bbee2b52dc8c845438872f3588c91ca" # ^^^
+  url "https://files.pythonhosted.org/packages/93/83/7cc70940ca92f390b37689739e727f4aae14aa9336af40e0187e69e0fa88/sailboat-0.12.10.tar.gz" # These lines must be configured during release, not build.
+  sha256 "f888c47face52c92d7028d4f9a82e5f722f7cb36f0b7c865b485f19b8b88d9bd" # ^^^
   license "MIT"
 
   livecheck do
@@ -32,10 +32,6 @@ class Sailboat < Formula
    resource "setuptools" do
       url "https://files.pythonhosted.org/packages/82/2f/ef7afd98530d07c89deffec833b4b1a91a27a5db6d9f1a216599f5f0316e/setuptools-51.1.2.tar.gz"
       sha256 "4fa149145ba5dcd4aaa89912ec92393a31170eaf17fe0268b1429538bad1f85a"
-   end
-   resource "pathlib" do
-      url "https://files.pythonhosted.org/packages/ac/aa/9b065a76b9af472437a0059f77e8f962fe350438b927cb80184c32f075eb/pathlib-1.0.1.tar.gz"
-      sha256 "6940718dfc3eff4258203ad5021090933e5c04707d5ca8cc9e73c94a7894ea9f"
    end
 
 
