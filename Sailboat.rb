@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v0.14.1
+# v0.17.1
 
 class Sailboat < Formula
   include Language::Python::Virtualenv
 
   desc "🐍 A quick and easy way to distribute your Python projects!"
   homepage "https://github.com/cole-wilson/sailboat"
-  url "https://files.pythonhosted.org/packages/f8/a4/bfef42dca3f059d14ce33a919086a49d4d3b129db314642c7d3319c93ca7/sailboat-0.14.1.tar.gz" # These lines must be configured during release, not build.
-  sha256 "ce48826020fc68589ebf12033509146c0ff211f9bade3686818a7d77121c6762" # ^^^
+  url "https://files.pythonhosted.org/packages/15/d5/4690d20d212b8afa7785ffcd4f7d838a9db42262b90ca674023cde03811a/sailboat-0.17.1.tar.gz" # These lines must be configured during release, not build.
+  sha256 "a2b6e108f93e694baa1bf2bb4e857cccefd32e1b13683e6a6a2aee3c59d1f17a" # ^^^
   license "MIT"
 
   livecheck do
@@ -30,8 +30,8 @@ class Sailboat < Formula
       sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
    end
    resource "setuptools" do
-      url "https://files.pythonhosted.org/packages/82/2f/ef7afd98530d07c89deffec833b4b1a91a27a5db6d9f1a216599f5f0316e/setuptools-51.1.2.tar.gz"
-      sha256 "4fa149145ba5dcd4aaa89912ec92393a31170eaf17fe0268b1429538bad1f85a"
+      url "https://files.pythonhosted.org/packages/96/66/1138b7ec901e86139c07900ce906c2f1e5c3400ee1cfd1e7ab3c776248c9/setuptools-51.3.3.tar.gz"
+      sha256 "127ec775c4772bfaf2050557b00c4be6e019e52dc2e171a3fb1cd474783a2497"
    end
 
 
