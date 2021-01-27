@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v1.3.2
+# v1.4.0+1e64d27.1
 
 class Equation_Painter < Formula
   include Language::Python::Virtualenv
 
   desc "A way for teachers to make equation painter worksheets for their students."
   homepage "https://github.com/cole-wilson/wsm"
-  url "https://files.pythonhosted.org/packages/0f/4d/ecfeaf295ec1de57ccf359f04e11fb893b297d504b39e40b8124f71ab20f/equationpainter-1.3.2.tar.gz" # These lines must be configured during release, not build.
-  sha256 "f8bc6f7b9b854d574cb265ab647c6253ace0eb818fd40c470ccbc6d4a73977ec" # ^^^
+  url "https://files.pythonhosted.org/packages/3f/d0/c92190027481c96dd2dbf6dcf7cbfda9f44e7919356f4307d0421a0fd673/equationpainter-1.4.0.tar.gz" # These lines must be configured during release, not build.
+  sha256 "8ef57da9810147b62b7dfa8e9729d243ac8a34aaa34c4f087bf5ac8a5981a3f6" # ^^^
   license "MIT"
 
   livecheck do
@@ -28,6 +28,10 @@ class Equation_Painter < Formula
    resource "xlsxwriter" do
       url "https://files.pythonhosted.org/packages/d9/91/92d6032b2cc80674bacd8cc5c7496a6793df542ad8df0fb8b5acd55b866d/XlsxWriter-1.3.7.tar.gz"
       sha256 "9b1ade2d1ba5d9b40a6d1de1d55ded4394ab8002718092ae80a08532c2add2e6"
+   end
+   resource "eel" do
+      url "https://files.pythonhosted.org/packages/b3/c2/7dc22cc9ea23f0339316d6d249392d3ce67190430f2b05a316f3471ae15d/Eel-0.14.0.tar.gz"
+      sha256 "b21f88c21e050eb2b5f6296f1eeeaf57ad9a2dfbffdf1bf88b90ef05a6ffcdb9"
    end
 
 
