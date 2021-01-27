@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v1.4.2
+# v1.4.3
 
 class Equation_Painter < Formula
   include Language::Python::Virtualenv
 
   desc "A way for teachers to make equation painter worksheets for their students."
   homepage "https://github.com/cole-wilson/wsm"
-  url "https://files.pythonhosted.org/packages/05/a7/45664bbe015cc9d7a0068cace59f484a74634e7556ced0409512c0e9fe89/equationpainter-1.4.2.tar.gz" # These lines must be configured during release, not build.
-  sha256 "99b45f4d21b8ff371006efa60a74e989c38baed0b4be0e454c7914db9e39cf11" # ^^^
+  url "https://files.pythonhosted.org/packages/79/ac/8fd492128fd6cbccb3e540d13b7404746a1654335677076406d58f5ac37e/equationpainter-1.4.3.tar.gz" # These lines must be configured during release, not build.
+  sha256 "b183c209c442bcf1287ed899309dfb2e4b02c45c16c3f0128600395ede34295d" # ^^^
   license "MIT"
 
   livecheck do
