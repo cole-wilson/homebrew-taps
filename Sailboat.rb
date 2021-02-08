@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v0.24.13
+# v0.25.0+7490438.1
 
 class Sailboat < Formula
   include Language::Python::Virtualenv
 
   desc "A quick and easy way to distribute your Python projects!"
   homepage "https://github.com/cole-wilson/sailboat"
-  url "https://files.pythonhosted.org/packages/18/23/141347532d55f6f30060aaab94b8b5a97fdbb23d5cf410636c160f397710/sailboat-0.24.12.tar.gz" # These lines must be configured during release, not build.
-  sha256 "19a9f38047e4af1f4c772faf06d2a8036deb1d0630d5837951f7eae6dd6afef8" # ^^^
+  url "https://files.pythonhosted.org/packages/e7/82/0d7ee75d6cf34ea4e747c4eec790488ae310680437be4bebd4ffb6940827/sailboat-0.25.0.tar.gz" # These lines must be configured during release, not build.
+  sha256 "2286700420b9b3013413b16ed2186c8cc17a6baebb33bf6aa2ca3a759bc45917" # ^^^
   license "MIT"
 
   livecheck do
@@ -40,6 +40,14 @@ class Sailboat < Formula
    resource "colorama" do
       url "https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
       sha256 "5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"
+   end
+   resource "enlighten" do
+      url "https://files.pythonhosted.org/packages/9d/1c/93c71041478b9cadd1aa47b72aed089c16529bad09e8ea6fe86cfd5a8363/enlighten-1.7.2.tar.gz"
+      sha256 "48a818c60e6bcec85051b695bac219c8f92a2ae0e53b5a0ad8dc0fcce93dae2f"
+   end
+   resource "blessed" do
+      url "https://files.pythonhosted.org/packages/0e/e6/f02d17a5ac70ca2d5794b105b8d8e9b5513e8b15ca6955440c0dbc90f363/blessed-1.17.12.tar.gz"
+      sha256 "580429e7e0c6f6a42ea81b0ae5a4993b6205c6ccbb635d034b4277af8175753e"
    end
 
 
