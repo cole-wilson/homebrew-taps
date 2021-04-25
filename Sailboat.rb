@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v0.25.1
+# v0.25.5+565b981.1
 
 class Sailboat < Formula
   include Language::Python::Virtualenv
 
   desc "A quick and easy way to distribute your Python projects!"
   homepage "https://github.com/cole-wilson/sailboat"
-  url "https://files.pythonhosted.org/packages/e7/82/0d7ee75d6cf34ea4e747c4eec790488ae310680437be4bebd4ffb6940827/sailboat-0.25.0.tar.gz" # These lines must be configured during release, not build.
-  sha256 "2286700420b9b3013413b16ed2186c8cc17a6baebb33bf6aa2ca3a759bc45917" # ^^^
+  url "https://files.pythonhosted.org/packages/37/8f/ec62452f9be4202282da1f754c255066a0a7524ce2f40890cb39788bcab5/sailboat-0.25.1.tar.gz" # These lines must be configured during release, not build.
+  sha256 "2c4b5e2a1c34673949b86e25a5a7890c3dbcd361e681e802c65d4241d8d020d3" # ^^^
   license "MIT"
 
   livecheck do
@@ -30,24 +30,24 @@ class Sailboat < Formula
       sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
    end
    resource "setuptools" do
-      url "https://files.pythonhosted.org/packages/12/68/95515eaff788370246dac534830ea9ccb0758e921ac9e9041996026ecaf2/setuptools-53.0.0.tar.gz"
-      sha256 "1b18ef17d74ba97ac9c0e4b4265f123f07a8ae85d9cd093949fa056d3eeeead5"
+      url "https://files.pythonhosted.org/packages/f6/e9/19af16328705915233299f6f1f02db95899fb00c75ac9da4757aa1e5d1de/setuptools-56.0.0.tar.gz"
+      sha256 "08a1c0f99455307c48690f00d5c2ac2c1ccfab04df00454fef854ec145b81302"
    end
    resource "twine" do
-      url "https://files.pythonhosted.org/packages/f9/43/51c3139667e90399a4d7886013631ad020ad102db5c2907cb240ce56f3c1/twine-3.3.0.tar.gz"
-      sha256 "fcffa8fc37e8083a5be0728371f299598870ee1eccc94e9a25cef7b1dcfa8297"
+      url "https://files.pythonhosted.org/packages/ac/5c/e12811190a3560c85dfb4caea752635abea59c53390592493549d88f086a/twine-3.4.1.tar.gz"
+      sha256 "a56c985264b991dc8a8f4234eb80c5af87fa8080d0c224ad8f2cd05a2c22e83b"
    end
    resource "colorama" do
       url "https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
       sha256 "5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"
    end
    resource "enlighten" do
-      url "https://files.pythonhosted.org/packages/9d/1c/93c71041478b9cadd1aa47b72aed089c16529bad09e8ea6fe86cfd5a8363/enlighten-1.7.2.tar.gz"
-      sha256 "48a818c60e6bcec85051b695bac219c8f92a2ae0e53b5a0ad8dc0fcce93dae2f"
+      url "https://files.pythonhosted.org/packages/cf/3f/f0e005fea4a5216423369250167263a7e2fba5b0c72d7e97ec9e54d80ac1/enlighten-1.9.0.tar.gz"
+      sha256 "539cc308ccc0c3bfb50feb1b2da94c1a1ac21e80fe95e984221de8966d48f428"
    end
    resource "blessed" do
-      url "https://files.pythonhosted.org/packages/0e/e6/f02d17a5ac70ca2d5794b105b8d8e9b5513e8b15ca6955440c0dbc90f363/blessed-1.17.12.tar.gz"
-      sha256 "580429e7e0c6f6a42ea81b0ae5a4993b6205c6ccbb635d034b4277af8175753e"
+      url "https://files.pythonhosted.org/packages/68/c7/5f21c1b0e7f343bad166c3139e594639cd54e9b97db7760dff035b35065e/blessed-1.18.0.tar.gz"
+      sha256 "1312879f971330a1b7f2c6341f2ae7e2cbac244bfc9d0ecfbbecd4b0293bc755"
    end
 
 
