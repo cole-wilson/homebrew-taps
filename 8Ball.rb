@@ -1,6 +1,6 @@
 # Created with sailboat, the Python releaser
 
-# v0.0.1
+# v0.1.0
 
 class 8Ball < Formula
   include Language::Python::Virtualenv
