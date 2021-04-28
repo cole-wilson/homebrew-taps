@@ -1,15 +1,15 @@
 # Created with sailboat, the Python releaser
 
-# v0.1.0
+# v0.0.1
 
 class 8Ball < Formula
   include Language::Python::Virtualenv
 
-  desc "8 Ball for the terminal"
-  homepage "https://github.com/"
-  url "https://files.pythonhosted.org/packages/a6/86/4d48a3ff236b51908abf30f0653e70508101b92cf85434ee202340f36800/8ball_pycon_demo-0.0.2.tar.gz" # These lines must be configured during release, not build.
-  sha256 "2cfe426fdc2ab89d8b71e6e6cc46470c173472adebd01604b4f5b60fafdd1bcc" # ^^^
-  license "none"
+  desc "8 ball for the terminal"
+  homepage "https://github.com"
+  url "https://files.pythonhosted.org/packages/e7/a4/ba61a07fcc8639b02680c5f3f52e24373d55c74916730c076ff8ed70458e/8ball_pycon_demo_cole-wilson-0.0.1.tar.gz" # These lines must be configured during release, not build.
+  sha256 "766792b59ddbee180f02ca1d723ca29c58e5b9adb0abce94669cf7b008068b6f" # ^^^
+  license "MIT"
 
   livecheck do
     url :stable
