@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v0.26.1
+# v0.26.2
 
 class Sailboat < Formula
   include Language::Python::Virtualenv
 
   desc "A quick and easy way to distribute your Python projects!"
   homepage "https://github.com/cole-wilson/sailboat"
-  url "https://files.pythonhosted.org/packages/99/c3/bb146809b90214da1fbc9cb409cbd53ad54ce20f4473a64bc86820085632/sailboat-0.26.1.tar.gz" # These lines must be configured during release, not build.
-  sha256 "e3ab3817f39fd7d0a1e30f2a0ae7cf79d7e111a1d45a601baaada0503172eadb" # ^^^
+  url "https://files.pythonhosted.org/packages/3a/ae/08650d566196de2d8c80ba7657692d8ba77bc27665ea98d34f48a2e26675/sailboat-0.26.2.tar.gz" # These lines must be configured during release, not build.
+  sha256 "c4673fedfbb3d526599fb602988c82f67c8357cb821e686fd7906831b175637f" # ^^^
   license "MIT"
 
   livecheck do
@@ -30,8 +30,8 @@ class Sailboat < Formula
       sha256 "27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804"
    end
    resource "setuptools" do
-      url "https://files.pythonhosted.org/packages/f6/e9/19af16328705915233299f6f1f02db95899fb00c75ac9da4757aa1e5d1de/setuptools-56.0.0.tar.gz"
-      sha256 "08a1c0f99455307c48690f00d5c2ac2c1ccfab04df00454fef854ec145b81302"
+      url "https://files.pythonhosted.org/packages/fc/0a/b486efab52f8ad03c3eca0c998dd3deafba0c39b29e0c49c68a7152c8b2d/setuptools-56.2.0.tar.gz"
+      sha256 "7bb5652625e94e73b9358b7ed8c6431b732e80cf31f4e0972294c64f0e5b849e"
    end
    resource "twine" do
       url "https://files.pythonhosted.org/packages/ac/5c/e12811190a3560c85dfb4caea752635abea59c53390592493549d88f086a/twine-3.4.1.tar.gz"
