@@ -1,15 +1,15 @@
 # Created with sailboat, the Python releaser
 
-# v1.0.0
+# v0.0.1
 
 class Test_Project < Formula
   include Language::Python::Virtualenv
 
-  desc ""
-  homepage "https://github.com/cole-wilson/sail-test"
-  url "https://files.pythonhosted.org/packages/c9/c7/ee6997f5d51205bc4834be52a1d215d6912b147a21ad9eccbeefd2fffcfa/sail-test-1.0.0.tar.gz" # These lines must be configured during release, not build.
-  sha256 "3f069f4e4e3d974694ec32d9397f0d06e67ef353391694c1597574236dc498df" # ^^^
-  license "MIT"
+  desc "A demo of Sailboat's capabilities"
+  homepage "https://github.com"
+  url "https://files.pythonhosted.org/packages/1a/01/b3dcaca849587d55e4f25de5bd3859ffd88412dffd34870307fec3732fca/test_project_pycon2021-0.0.1.tar.gz" # These lines must be configured during release, not build.
+  sha256 "53b7f767ff4ddff46db9fd30e85c15c916898fc351bea86d160a52f94c961152" # ^^^
+  license "none"
 
   livecheck do
     url :stable
